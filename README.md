@@ -250,7 +250,7 @@ My matrix is ​​of type AS. I used this table to make the correct connections
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/fb9c28b3-5fe1-4b37-b904-a30e47aa83c4">
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/1c50904d-1fce-4b5b-85ba-59777edbee8d">
 
-### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ]
+### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ](https://youtu.be/NuJOzEWJGMs)
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/blob/main/BOMBERMAN_MINI_GAME.ino)
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
