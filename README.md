@@ -1,6 +1,8 @@
 
 # _BOMBERMAN_ 💣
-<img width="500" hight="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/da6032fb-f84a-47ed-8ab9-d08c44cfad46">
+<img width="1000" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/6247079b-f57c-4839-b0ff-2ccce60f1ad8">
+
+
 <details>
   <summary> 
      <h2> A little history 🤓 </h2>
