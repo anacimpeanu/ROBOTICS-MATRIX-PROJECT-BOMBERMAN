@@ -228,11 +228,10 @@ When we select the settings, a representative image will appear on the matrix.
 
 </details>
 
-### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/blob/main/BOMBERMAN_MINI_GAME.ino)
-
-
 <details>
-  🕹 Electronic scheme: 
+  <summary>
+  <h2>🕹 Electronic scheme: </h2>
+  </summary>
 
 ## Matrix 
 <img width="400" hight="500" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/95e1beea-e6bb-4dc6-af20-dd0617830be4">
@@ -247,14 +246,10 @@ My matrix is ​​of type AS. I used this table to make the correct connections
 ### 📸 Electronic circuit in real life:
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/96dcaee7-907a-40fc-9bcc-197595125db4">
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/fb9c28b3-5fe1-4b37-b904-a30e47aa83c4">
-<img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/2e68056b-6788-4539-bdba-d2594702cefc">
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/1c50904d-1fce-4b5b-85ba-59777edbee8d">
 
-
-
-
 ### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ]
-
+### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/blob/main/BOMBERMAN_MINI_GAME.ino)
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
