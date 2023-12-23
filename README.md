@@ -157,7 +157,7 @@ When we select the settings, a representative image will appear on the matrix.
 <details>
     <summary> About </summary>
     
-    🐱 Details about the name of this wonderful creator (me, just                 kidding), github where you can see other things I'm working on, etc.
+    🐱 Details about the name of this wonderful creator (me, just kidding), github where you can see other things I'm working on, etc.
        On top of that, a cute image appears on the matrix.
        
 <img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/551b3210-ccbc-4d02-a5ac-84f439cb77f0">
@@ -199,11 +199,10 @@ When we select the settings, a representative image will appear on the matrix.
                 of its position.
                 The player can move up, down, left, right without going 
                 through walls.
-                
-  <div align="center">
-  <img width="200" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/471645e5-a787-48b4-b105-151f50b0bdbc">
+  <div align="center">          
+  <img width="350" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/fb478d99-8a00-4368-a375-5d97f62e692b">
   </div>
-
+  
              🐱 Wall Destruction
                 Navigate the player to break walls strategically.
                 Walls cover 50% - 75% of the matrix initially.
@@ -211,13 +210,23 @@ When we select the settings, a representative image will appear on the matrix.
                 Remember, when generating a new map, the player is 
                 strategically positioned in such a way that he can move.    
                 
+<div align="center">              
 <img width="400" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
+</div>
+
 
             🐱 Bomb Placement
                 Press the joystick button to place a bomb.
                 The bomb blinks rapidly, indicating its presence.
                 Bombs eliminate walls in all four directions upon 
-               detonation.   
+               detonation.  
+<div align="center">              
+<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/1537a1bb-7ba8-4497-851f-31b73e2fed6e">
+</div>
+
+
+
+
             🐱 Scoring
                 Score is calculated based on the time taken to win and the 
                 number of walls broken.
