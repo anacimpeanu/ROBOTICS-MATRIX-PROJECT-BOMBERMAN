@@ -179,7 +179,7 @@ When we select the settings, a representative image will appear on the matrix.
 <details>
     <summary> Highscores </summary>
     
-    🐱 The user can see his best father-in-law and, on top of that, brag 
+    🐱 The user can see his best score and, on top of that, brag 
        about it to his friends ;)
        
 <img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/8b770dda-89d4-4b48-934f-ba7ce1880488">
