@@ -7,7 +7,7 @@
   <summary> 
      <h2> A little history 🤓 </h2>
   </summary>
-  
+
           Bomberman games have two main modes: single-player campaigns and multiplayer battles. 
           In single-player, you navigate mazes, defeat enemies, and reach exits. 
           In multiplayer, the goal is to be the last player standing by strategically using bombs.
@@ -16,6 +16,9 @@
           If you touch an enemy or get caught in a bomb blast, you lose.
           Apart from the classic maze games, some Bomberman titles include adventures, puzzles, and racing. 
           It's all about smart bomb placement and outlasting opponents.
+          
+<img width="500" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/880f3f28-00c7-4f0d-a9ab-581f74ddb4df">
+
 </details>
 
 <details>
@@ -194,6 +197,13 @@ When we select the settings, a representative image will appear on the matrix.
                 of its position.
                 The player can move up, down, left, right without going 
                 through walls.
+  
+  <img width="400" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/471645e5-a787-48b4-b105-151f50b0bdbc">
+
+
+
+
+
              🐱 Wall Destruction
                 Navigate the player to break walls strategically.
                 Walls cover 50% - 75% of the matrix initially.
