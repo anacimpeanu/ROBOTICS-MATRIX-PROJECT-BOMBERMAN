@@ -227,7 +227,7 @@ When we select the settings, a representative image will appear on the matrix.
                detonation.  
                
 <div align="center">              
-<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/c3f7f3c9-90a1-4201-b25f-d613c0c8c637">
+<img width="300"  src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/c3f7f3c9-90a1-4201-b25f-d613c0c8c637">
 </div>
 
             🐱 Scoring
