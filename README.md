@@ -99,7 +99,9 @@
 <img width="217" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/09036ea9-441c-4bed-94a9-2e2aeb32cad9">
 </details>
 <details>
+  
 When we select the settings, a representative image will appear on the matrix.
+  
 <img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/b82a75d6-1b71-414e-9989-e4225f77bb98">
 
 <summary> ENTER NAME </summary>
@@ -197,19 +199,20 @@ When we select the settings, a representative image will appear on the matrix.
                 of its position.
                 The player can move up, down, left, right without going 
                 through walls.
-  
-  <img width="400" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/471645e5-a787-48b4-b105-151f50b0bdbc">
-
-
-
-
+                
+  <div align="center">
+  <img width="200" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/471645e5-a787-48b4-b105-151f50b0bdbc">
+  </div>
 
              🐱 Wall Destruction
                 Navigate the player to break walls strategically.
                 Walls cover 50% - 75% of the matrix initially.
                 Breaking walls contributes to the player's score.
                 Remember, when generating a new map, the player is 
-                strategically positioned in such a way that he can move.                
+                strategically positioned in such a way that he can move.    
+                
+<img width="400" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
+
             🐱 Bomb Placement
                 Press the joystick button to place a bomb.
                 The bomb blinks rapidly, indicating its presence.
