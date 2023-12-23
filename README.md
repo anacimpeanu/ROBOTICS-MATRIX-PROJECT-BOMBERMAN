@@ -72,10 +72,12 @@
       🐱 The project lights up, this message will display the message   
          "HI!" on the matrix, and the welcome messages will be played on 
           the LCD:
-                                "WELCOME PLAYERS"
-                                "ARE YOU READY?"
-                                "FOR THIS GAME"
-                                "BOMBERMAN"
+                                "The best of the best"
+                                "game is back !"
+                                "Welcome to ...."
+                                "BOMBERMAN !"
+                                "Please let me to "
+                                " show you the menu .. "
 
     
       🤓 After displaying the welcome message on the matrix screen
@@ -97,7 +99,7 @@
 When we select the settings, a representative image will appear on the matrix.
 <img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/b82a75d6-1b71-414e-9989-e4225f77bb98">
 
-    <summary> ENTER NAME </summary>
+<summary> ENTER NAME </summary>
   
     🐱 The USER can set a name of maximum 3 characters, by moving up/down to slide between letters, moving to the right to go to the next character
 <img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/b55a670f-eb6b-486b-a330-51efc11b39b8">
