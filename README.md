@@ -217,7 +217,7 @@ When we select the settings, a representative image will appear on the matrix.
                 strategically positioned in such a way that he can move.    
                 
 <div align="center">              
-<img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
+<img width="250" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
 </div>
 
                🐱 Bomb Placement
