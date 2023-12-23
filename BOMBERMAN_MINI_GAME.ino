@@ -1,6 +1,8 @@
 #include <LedControl.h>
 #include <EEPROM.h>
 #include <LiquidCrystal.h>
+
+
 // --------------- PREPARE VARIABLES FOR SETUP --------------------------
 
 // Declarations for the menu
@@ -267,7 +269,7 @@ void setup() {
   EEPROM.get(maximScoreAddress, maximScore);
   lcd.begin(16, 2);
   pinMode(3, OUTPUT); 
-  analogWrite(3, 128); 
+  analogWrite(3, 90); 
   pinMode(buttonPin, INPUT);
   digitalWrite(buttonPin, HIGH);
   pinMode(ledPin, OUTPUT);
@@ -286,7 +288,7 @@ void loop() {
 void enterWelcome() {
   const char welcomeText[][16] = {
     {'T', 'h', 'e', ' ', 'b', 'e', 's', 't', ' ', 'o', 'f', ' ', 'b', 'e', 's', 't'},
-    {'g', 'a', 'm', 'e', 's', ' ', 'i', 's', ' ', 'b', 'a', 'c', 'k', '!', ' ', ' '},
+    {'g', 'a', 'm', 'e', ' ', ' ', 'i', 's', ' ', 'b', 'a', 'c', 'k', '!', ' ', ' '},
     {'W', 'e', 'l', 'c', 'o', 'm', 'e', ' ', 't', 'o',  ' ', '.', '.', '.', ' ', ' '},
     {' ', ' ', ' ', 'B', 'O', 'M', 'B', 'E', 'R', 'M', 'A', 'N', '!', ' ', ' ', ' '},
     {'P', 'l', 'e', 'a', 's', 'e', ' ', 'l', 'e', 't', ' ', 'm', 'e', ' ', 't', 'o'},
@@ -296,6 +298,7 @@ void enterWelcome() {
   displayScrollingText(welcomeText, welcomeTextSize, MENU);
   switchPress = getSwitchPress();
   if (switchPress != NONE) {
+    //playBeep
     nextOption(MENU);
   }
 } 
@@ -314,6 +317,7 @@ void menuOption() {
   switchPress = getSwitchPress();
   if (switchPress != NONE) {
     // by pressing the user choose the menu option displayed on the lcd
+    //playBeep();
     subMenu(menuIndex);
   }
 }
@@ -377,6 +381,7 @@ void menuScroll(const char text[][16], const int options, int &scrollIndex, cons
     scrollIndex = min(scrollIndex + 1, upperIndex);
   } else if (joystickMove == DOWN && automaticSave) {
     // Save option and return to the specified state
+    //playBeep();
     scrollIndex = lowerIndex;
     nextOption(returnToState);
   }
@@ -675,11 +680,11 @@ void settingOption() {
   displaySettings();
   menuScroll(settingsText, settingsOptions, settingsIndex, MENU, 1, settingsOptions - 1, 1, true);
   
-  // by pressing the switch the current settings option displayed will be selected
   switchPress = getSwitchPress();
 
   if (switchPress != NONE) {
     lcd.clear();
+    //playBeep();
     scrollSettingsOptions(settingsIndex);
   }
 }
@@ -690,9 +695,15 @@ void displayHighscore() {
   lcd.print("Your highscore");
   lcd.setCursor(0,1);
   lcd.print(maximScore);
+  lcd.setCursor(12,0);
+  lcd.print("Name");
+  lcd.setCursor(12,1);
+  printName();
   joystickMove = getJoystickMove();
-  if(joystickMove == DOWN)
+  if(joystickMove == DOWN){
     nextOption(MENU);
+    //playBeep();
+  }
 
   
 }
@@ -703,8 +714,10 @@ void displayReset() {
   lcd.setCursor(0,1);
   lcd.print("clear your name");
   joystickMove = getJoystickMove();
-  if(joystickMove == DOWN)
+  if(joystickMove == DOWN){
     nextOption(SETTINGS);
+    //playBeep();
+  }
 }
 void displayTop() {
   resetHighscore();
@@ -713,8 +726,10 @@ void displayTop() {
   lcd.setCursor(0,1);
   lcd.print("reset highscore ");
   joystickMove = getJoystickMove();
-  if(joystickMove == DOWN)
+  if(joystickMove == DOWN){
     nextOption(SETTINGS);
+    //playBeep();
+  }
 }
 void displayName() {
   lcd.setCursor(0,0);
@@ -722,8 +737,10 @@ void displayName() {
   lcd.setCursor(0,1);
   printName();
   joystickMove = getJoystickMove();
-  if(joystickMove == DOWN)
-  nextOption(SETTINGS);
+  if(joystickMove == DOWN){ 
+     nextOption(SETTINGS);
+     //playBeep();
+  }
 }
 
 void nameOption() {
@@ -794,6 +811,7 @@ void setSound() {
     EEPROM.put(soundAddress, (soundIndex == 0));  // 0 pentru ON, 1 pentru OFF
     setSoundFromEEPROM();
     nextOption(SETTINGS);
+    //playBeep();
   }
 }
 
@@ -846,6 +864,7 @@ void setLcdBrightness() {
   if (joystickMove == DOWN) {
     EEPROM.put(lcdBrightnessAddress, lcdBrightness);
     nextOption(SET_BRIGHTNESS);
+    //playBeep();
   }
 
   canScrollUp = !(lcdBrightness == maxLcdBrightness);
@@ -892,6 +911,7 @@ void setMatrixBrightness() {
 
   if (joystickMove == DOWN) {
     nextOption(SET_BRIGHTNESS);
+    //playBeep();
   }
 
   canScrollUp = !(matrixBrightness == 0);
@@ -1297,7 +1317,6 @@ void eliminateFirstWallInDirection(int startX, int startY, int dirX, int dirY) {
   }
 }
 
-// Functions for displaying animations (helper code from the site whose name I forgot again (it turns on the LEDs on the matrix and generates the code for you)
 
 void displayHi() {
   const uint64_t hiImage = 0x00a9a9afa929a900;
@@ -1405,8 +1424,8 @@ void playBoomSound() {
 
 void playCrashSound() {
   if(soundEnabled){
-  tone(buzzerPin, 300, 100); // Reglat frecvența și durata pentru sunetul "CRASH"
-  delay(200); // O scurtă pauză între sunete
+  tone(buzzerPin, 300, 100); 
+  delay(200); 
   noTone(buzzerPin);
   }
 }
@@ -1466,8 +1485,18 @@ void playLoserSound() {
 
 void playLifeLostSound() {
   if (soundEnabled) {
-    tone(buzzerPin, 330, 200);  // Sunet la frecvența 330 Hz, timpul de 200 milisecunde
-    delay(250);  // O mică pauză între sunete
-    noTone(buzzerPin);  // Oprește sunetul
+    tone(buzzerPin, 330, 200);  
+    delay(250);  
+    noTone(buzzerPin); 
   }
 }
+// void playBeep() {
+//   if(soundEnabled){
+//   tone(buzzerPin, 1000, 200);  
+//   delay(250);  
+//   noTone(buzzerPin);
+//   }
+// }
+
+//the menu code is inspired from github
+//playBeep is added after the presentation, for sounds during the menu, but I didn't have anything to test the functionality on (my kit is in Bucharest, I arrived home in the meantime)
