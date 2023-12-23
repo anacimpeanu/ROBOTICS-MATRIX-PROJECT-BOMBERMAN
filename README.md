@@ -1,7 +1,9 @@
 
 # _BOMBERMAN_ 💣
-<img width="1000" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/6247079b-f57c-4839-b0ff-2ccce60f1ad8">
 
+<div align="center">  
+<img width="1000" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/6247079b-f57c-4839-b0ff-2ccce60f1ad8">
+</div>
 
 <details>
   <summary> 
@@ -17,8 +19,9 @@
           Apart from the classic maze games, some Bomberman titles include adventures, puzzles, and racing. 
           It's all about smart bomb placement and outlasting opponents.
           
+<div align="center">           
 <img width="500" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/880f3f28-00c7-4f0d-a9ab-581f74ddb4df">
-
+</div>
 </details>
 
 <details>
@@ -42,6 +45,7 @@
             • Buzzer 🔊
             • LCD
   </details>
+  
   <details>
   <summary> 
      <h3>Menu Requirements 🤓 </h3>
@@ -231,7 +235,7 @@ When we select the settings, a representative image will appear on the matrix.
                 number of walls broken.
                 A bonus is awarded for each wall destroyed.              
 <div align="center">              
-<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/4c222e05-761b-4447-a676-b447b6ec3ede">
+<img width="300" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/4c222e05-761b-4447-a676-b447b6ec3ede">
 </div>
 
             🐱 Lossing the Game 
@@ -241,7 +245,7 @@ When we select the settings, a representative image will appear on the matrix.
               the game ends and you will be accompanied by sad music.
               
 <div align="center">              
-<img src=https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/13f56b41-90b0-44fe-8d7c-1568f64202c7"">
+<img width="300" src=https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/13f56b41-90b0-44fe-8d7c-1568f64202c7"">
 </div>
 
             🔔 Winning the Game
@@ -251,7 +255,7 @@ When we select the settings, a representative image will appear on the matrix.
                 including bonuses, is presented in LCD.
                 
 <div align="center">              
-<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/d03e8b26-d726-4b54-a8fb-1748defae74e">
+<img width="300" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/d03e8b26-d726-4b54-a8fb-1748defae74e">
 </div>
 
 
@@ -272,22 +276,31 @@ When we select the settings, a representative image will appear on the matrix.
   </summary>
 
 ## Matrix 
+<div align="center">  
 <img width="400" hight="500" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/95e1beea-e6bb-4dc6-af20-dd0617830be4">
+</div>
 
 My matrix is ​​of type AS. I used this table to make the correct connections
 - Laboratory source
+<div align="center">  
 <img width="400" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/8fc92705-f607-47a6-b0ee-b2798439c8e2">
 <img width="400" alt="image" src="https://github.com/anacimpeanu/IntroductionToRobotics-2023-2024-/assets/115561036/050bc037-00db-4902-9b37-8958375c7ca7">
+</div>
 
 </details>
 
-### 📸 Electronic circuit in real life:
+<details>
+  <summary>
+<h2>📸 Electronic circuit in real life </h2>
+  </summary>
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/96dcaee7-907a-40fc-9bcc-197595125db4">
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/fb9c28b3-5fe1-4b37-b904-a30e47aa83c4">
 <img width="230" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/1c50904d-1fce-4b5b-85ba-59777edbee8d">
+</details>
 
 ### 📽 Video : [ Mini Matrix Bomberman Game LCD 💣 ](https://youtu.be/NuJOzEWJGMs)
 ### 🖥 Code : [ The Code 🖥 ](https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/blob/main/BOMBERMAN_MINI_GAME.ino)
+
 ### 🔌 Important : 
 - The red LED has too much internal resistance, and a 330 resistor further reduces the current reaching the LED
 - So, for the red LED, I use a resistance of 10, so we allow a current with a higher intensity to reach the LED
