@@ -200,8 +200,10 @@ When we select the settings, a representative image will appear on the matrix.
                 The player can move up, down, left, right without going 
                 through walls.
   <div align="center">          
-  <img width="350" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/fb478d99-8a00-4368-a375-5d97f62e692b">
-  </div>
+  <img width="300" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/2c27f866-29eb-4bd7-98ea-1fffbf1b668e">
+   <img width="300" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/814eccbd-8c2c-48ef-84c3-625e33d4c4c2">
+
+ </div>
   
              🐱 Wall Destruction
                 Navigate the player to break walls strategically.
@@ -211,42 +213,52 @@ When we select the settings, a representative image will appear on the matrix.
                 strategically positioned in such a way that he can move.    
                 
 <div align="center">              
-<img width="400" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
+<img width="300" alt="image" src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/689ef665-91c3-4543-932f-65265f9c61ca">
 </div>
 
-
-            🐱 Bomb Placement
+               🐱 Bomb Placement
                 Press the joystick button to place a bomb.
                 The bomb blinks rapidly, indicating its presence.
                 Bombs eliminate walls in all four directions upon 
                detonation.  
+               
 <div align="center">              
-<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/1537a1bb-7ba8-4497-851f-31b73e2fed6e">
+<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/c3f7f3c9-90a1-4201-b25f-d613c0c8c637">
 </div>
-
-
-
 
             🐱 Scoring
                 Score is calculated based on the time taken to win and the 
                 number of walls broken.
                 A bonus is awarded for each wall destroyed.              
-  
+<div align="center">              
+<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/4c222e05-761b-4447-a676-b447b6ec3ede">
+</div>
+
             🐱 Lossing the Game 
               Lives decrease when the player is within the radius of the 
               bomb at a distance of 1.
               Thus, the lives will decrease, and at the moment of 0 lives, 
               the game ends and you will be accompanied by sad music.
               
+<div align="center">              
+<img src=https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/13f56b41-90b0-44fe-8d7c-1568f64202c7"">
+</div>
+
             🔔 Winning the Game
                 The game is won when all walls are eliminated. 
                 A winning animation, accompanied by a festive jingle, is 
                 displayed on the matrix. The total score, 
                 including bonuses, is presented in LCD.
                 
+<div align="center">              
+<img src="https://github.com/anacimpeanu/ROBOTICS-MATRIX-PROJECT-BOMBERMAN/assets/115561036/d03e8b26-d726-4b54-a8fb-1748defae74e">
+</div>
+
+
             ♻️ Resetting the Game
                 After the reset, you can change it again in the menu, it's your decisions. 
-                Name and best score, settings will be saved        
+                Name and best score, settings will be saved    
+                
             🔔 During the Game
                 On the screen you will know how many lives you will have 
                 and the time is counted in real time. At the same time, 
